@@ -59,7 +59,7 @@
         <plugin name="InAppBrowser" value="CDVInAppBrowser" />
     </plugins>
 
-    <access origin="*" />
+    <access origin="*" subdomains="true" />
     
     <name>PhoneGap Example</name>
 
@@ -79,6 +79,16 @@
     <feature name="http://api.phonegap.com/1.0/media"/>
     <feature name="http://api.phonegap.com/1.0/network"/>
     <feature name="http://api.phonegap.com/1.0/notification"/>
+
+    <gap:plugin name="org.apache.cordova.camera"  />
+    <gap:plugin name="org.apache.cordova.geolocation"  />
+    <gap:plugin name="org.apache.cordova.dialogs"  />
+    <gap:plugin name="org.apache.cordova.device"  />
+    <gap:plugin name="org.apache.cordova.network-information"  />
+    <gap:plugin name="org.apache.cordova.console"  />
+    <gap:plugin name="org.apache.cordova.inappbrowser"  />
+    <gap:plugin name="org.apache.cordova.network-information"  />
+    <gap:plugin name="org.apache.cordova.splashscreen"  />
 
     
 </widget>
